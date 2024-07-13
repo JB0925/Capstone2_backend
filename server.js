@@ -5,10 +5,10 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require ('cors');
 const connectDB = require('./db');
-const authRoutes = require('./authRoutes');
-const recipeRoutes = require('./recipeRoutes')
-const favoritesRoutes = require('./favoritesRoutes');
-const userRoutes = require('./userRoutes');
+const authRoutes = require('./Routes/authRoutes');
+const recipeRoutes = require('./Routes/recipeRoutes')
+const favoritesRoutes = require('./Routes/favoritesRoutes');
+const userRoutes = require('./Routes/userRoutes');
 const dotenv = require('dotenv');
 
 // load environment variables from .env file
