@@ -1,4 +1,4 @@
-const User = require('../models/User');
+const User = require('../Models/modelsUser');
 
 // controller function to add a recipe to user's favorites
 exports.addFavorite = async (req, res) => {
